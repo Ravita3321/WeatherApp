@@ -4,7 +4,8 @@ import CardMedia from '@mui/material/CardMedia';
 import Typography from '@mui/material/Typography';
 import "./InfoBox.css";
 
-export default function InfoBox(info) {
+
+    export default function InfoBox({ info }) {
     const INIT_URL = 
     "https://images.unsplash.com/photo-1595661671412-e20c4a3e65cc?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8Y2xvdWR5JTIwd2VhdGhlcnxlbnwwfHwwfHx8MA%3D%3D"
   
